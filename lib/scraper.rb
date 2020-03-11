@@ -26,6 +26,7 @@ class Scraper
   def get_courses
     doc = self.get_page
     courses = doc.css(".post")
+    courses
   end
 
   def make_courses
